@@ -1,14 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = [1, 2, 2, 3, 4, 4, 4, 5, 6, 6, 6, 6, 6]
+data = [8, 9, 7, 5, 9, 7, 4, 8, 6, 7, 6, 5, 4]
 
 df = pd.DataFrame(data)
 
-plt.hist(data, bins=6)
+plt.hist(data, bins=9)
 
-plt.xlabel("x ось")
-plt.ylabel("y ось")
-plt.title("Тестовая гистограма")
+plt.xlabel("x час сна")
+plt.ylabel("y количество ллюдей")
+plt.title("гистограмма количества часов сна")
 
 plt.show()

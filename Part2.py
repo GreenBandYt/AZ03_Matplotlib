@@ -8,6 +8,6 @@ plt.scatter(x, y)
 
 plt.xlabel("x ось")
 plt.ylabel("y ось")
-plt.title("Тестовая диаграмма")
+plt.title("Диаграмма рассеивания")
 
 plt.show()
